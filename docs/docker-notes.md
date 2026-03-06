@@ -57,12 +57,6 @@ For more examples and ideas, visit:
 
 
 ## Postgres Container
-  docker run -d \
-  --name pg-prework \
-  -e POSTGRES_PASSWORD=prework \
-  -p 5432:5432 \
-  postgres:15-alpine
-497102df0378cb4193cb6bb0bf82174e39a16abb26560ca8a1a85e51cbdfb69f
 
 
 
@@ -228,3 +222,13 @@ PostgreSQL Database directory appears to contain a database; Skipping initializa
 2026-03-05 22:40:09.127 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
 2026-03-05 22:40:09.150 UTC [29] LOG:  database system was shut down at 2026-03-05 22:39:00 UTC
 2026-03-05 22:40:09.176 UTC [1] LOG:  database system is ready to accept connections
+
+
+
+---
+
+### Step 11 — Commit and push
+
+None
+
+```
