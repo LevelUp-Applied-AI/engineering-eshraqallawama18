@@ -29,6 +29,7 @@ source .venv/bin/activate   # Mac/Linux
 pip install -r requirements-prework.txt
 ```
 
+<<<<<<< HEAD
 ## How to Run
 
 ### Setup
@@ -75,3 +76,26 @@ Enter your password:
 
 * After 3 failed login attempts, further attempts are blocked.
 * Make sure the virtual environment is activated before running the script.
+=======
+
+## How to run
+
+1. Clone the repository
+
+git clone <repo-url>
+cd <repo-name>
+
+2. Activate the virtual environment
+
+Windows:
+source .venv/Scripts/activate
+
+Mac/Linux:
+source .venv/bin/activate
+
+3. Run the program
+
+python main.py
+
+If the program runs without errors, the setup was successful.
+>>>>>>> cbe451569d8b92dfcf4d8565ba36552044dbfb21
