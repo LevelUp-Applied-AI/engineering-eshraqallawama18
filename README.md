@@ -29,7 +29,6 @@ source .venv/bin/activate   # Mac/Linux
 pip install -r requirements-prework.txt
 ```
 
-<<<<<<< HEAD
 ## How to Run
 
 ### Setup
@@ -98,4 +97,3 @@ source .venv/bin/activate
 python main.py
 
 If the program runs without errors, the setup was successful.
->>>>>>> cbe451569d8b92dfcf4d8565ba36552044dbfb21
