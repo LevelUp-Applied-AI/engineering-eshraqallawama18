@@ -52,29 +52,6 @@ pip install -r requirements-prework.txt
    uv pip install -r requirements-prework.txt
    ```
 
----
-
-### Run
-
-```
-python log-in.py
-```
-
----
-
-### Expected Output
-
-```
-Enter your email:
-Enter your password:
-```
-
----
-
-### Notes
-
-* After 3 failed login attempts, further attempts are blocked.
-* Make sure the virtual environment is activated before running the script.
 =======
 
 ## How to run
