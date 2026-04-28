@@ -22,9 +22,22 @@ Phase 3 covers PR hygiene, pytest, SQL, and Docker — the engineering practices
 
 Your venv and all packages from `requirements-prework.txt` should already be installed from Day 3. If you need to reinstall:
 
+
+
+
+## How to Run
+these steps to activate the vartual_environent  
+
+### Mac/Linux
 ```bash
-python -m venv .venv
-source .venv/bin/activate   # Mac/Linux
-# or: source .venv/Scripts/activate  (Windows Git Bash)
+source .venv/bin/activate 
 pip install -r requirements-prework.txt
 ```
+
+### Windows (Windows Git Bash)
+```bash
+source .venv/Scripts/activate   
+pip install -r requirements-prework.txt
+```
+
+
