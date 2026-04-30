@@ -1,7 +1,9 @@
 # Docker Notes — Day 9
 
 ## Docker Version
-
+``` bash
+docker verion 
+```
 Client:
  Version:           29.4.1
  API version:       1.54
@@ -33,15 +35,31 @@ Server: Docker Desktop 4.71.0 (225177)
 
 
 ## Hello World Test
-  
+
+```bash  
+docker run hello-world
+```  
 Hello from Docker!
 This message shows that your installation appears to be working correctly.
 
 ## Postgres Container
+``` bash
+docker run -d \
+  --name pg-prework \
+  -e POSTGRES_PASSWORD=prework \
+  -P 5432:5432 \
+  postgres:15-lapine
+
+```
+
 35dbda422d16e95b0eb460ccaf929a1eba5d4a871621d239cc5593aa2f4b9df2
 
 
 ## Startup Logs
+
+```bash
+docker logs pg-prework
+```
 
 The files belonging to this database system will be owned by user "postgres".
 This user must also own the server process.
@@ -103,12 +121,26 @@ PostgreSQL init process complete; ready for start up.
 ## Stop and Restart
 
 ### stop
+
+```bash
+docker stop pg-prework
+pg-prework
+```
 pg-prework
 
 ### restart
+
+```bash
+docker restart pg-prework
+pg-prework
+```
 pg-prework
 
 ### logs
+
+```bash
+docker logs pg-prework
+```
 
 The files belonging to this database system will be owned by user "postgres".
 This user must also own the server process.
