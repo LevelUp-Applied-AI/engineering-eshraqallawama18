@@ -28,3 +28,74 @@ source .venv/bin/activate   # Mac/Linux
 # or: source .venv/Scripts/activate  (Windows Git Bash)
 pip install -r requirements-prework.txt
 ```
+
+<<<<<<< HEAD
+## How to Run
+
+### Setup
+
+1. Activate the virtual environment:
+
+   * **Windows:**
+
+     ```
+     .venv\Scripts\activate
+     ```
+   * **Linux / macOS:**
+
+     ```
+     source .venv/bin/activate
+     ```
+
+2. Install dependencies:
+
+   ```
+   uv pip install -r requirements-prework.txt
+   ```
+
+---
+
+### Run
+
+```
+python log-in.py
+```
+
+---
+
+### Expected Output
+
+```
+Enter your email:
+Enter your password:
+```
+
+---
+
+### Notes
+
+* After 3 failed login attempts, further attempts are blocked.
+* Make sure the virtual environment is activated before running the script.
+=======
+
+## How to run
+
+1. Clone the repository
+
+git clone <repo-url>
+cd <repo-name>
+
+2. Activate the virtual environment
+
+Windows:
+source .venv/Scripts/activate
+
+Mac/Linux:
+source .venv/bin/activate
+
+3. Run the program
+
+python main.py
+
+If the program runs without errors, the setup was successful.
+>>>>>>> cbe451569d8b92dfcf4d8565ba36552044dbfb21
