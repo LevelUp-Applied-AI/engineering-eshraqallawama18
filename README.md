@@ -41,3 +41,51 @@ pip install -r requirements-prework.txt
 ```
 
 
+## How to Run
+
+### Setup
+
+1. Activate the virtual environment:
+
+   * **Windows:**
+
+     ```
+     .venv\Scripts\activate
+     ```
+   * **Linux / macOS:**
+
+     ```
+     source .venv/bin/activate
+     ```
+
+2. Install dependencies:
+
+   ```
+   uv pip install -r requirements-prework.txt
+   ```
+
+
+
+---
+
+
+## How to run
+
+1. Clone the repository
+
+git clone <repo-url>
+cd <repo-name>
+
+2. Activate the virtual environment
+
+Windows:
+source .venv/Scripts/activate
+
+Mac/Linux:
+source .venv/bin/activate
+
+3. Run the program
+
+python main.py
+
+If the program runs without errors, the setup was successful.
